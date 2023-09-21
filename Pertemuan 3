@@ -1,0 +1,31 @@
+#Menampilkan data didalam List
+
+import numpy as np
+import datetime
+
+
+date = datetime.date.today()
+
+aList1= ["Najib",
+         2022071069,
+         "Informatika",
+         "Desain Analisis Algoritma",
+         str(date),
+         "Universitas Pembangunan Jaya" ]
+
+aList2 = ["Tamboto",
+          2022071008,
+          "Informatika",
+          "Desain Analisis Algoritma",
+          str(date),
+          "Universitas Pembangunan Jaya"]
+
+aList3 = ["Daffa",
+          2022071006,
+          "Informatika",
+          "Desain Analisis Algoritma",
+          str(date),
+          "Universitas Pembangunan Jaya"]
+
+print(aList1)
+print(date)
